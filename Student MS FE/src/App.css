@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(225, 172, 107);
+}
+
+.text-center {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.custom-input {
+    /* Add margins */
+    margin: 10px; /* You can adjust this value as needed */
+
+    /* Add additional styling */
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Style the placeholder text */
+.custom-input::placeholder {
+    color: #6c757d;
+    font-style: italic;
+}
+
+.card{
+    margin-top: 200px;
+}
